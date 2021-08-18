@@ -1,0 +1,33 @@
+Here are the initial conditions.
+universe radius 2000.0
+max collisions 2
+slow m=100 R=10 p=(0,0,100) v=(1e-80,0,0) bounces=0
+other m=100 R=10 p=(80,0,90) v=(0,0,0) bounces=0
+energy: 5e-159
+momentum: (1e-78,0,0)
+
+Here are the events.
+
+time of event: 6.26795e+81
+colliding slow other
+slow m=100 R=10 p=(62.6795,0,100) v=(2.5e-81,0,4.33013e-81) bounces=1
+other m=100 R=10 p=(80,0,90) v=(7.5e-81,0,-4.33013e-81) bounces=1
+energy: 5e-159
+momentum: (1e-78,0,0)
+
+time of event: 2.32846e+83
+reflecting other
+slow m=100 R=10 p=(629.124,0,1081.11) v=(2.5e-81,0,4.33013e-81) bounces=1
+other m=100 R=10 p=(1779.33,0,-891.11) v=(-7.95968e-81,0,3.41226e-81) bounces=2
+energy: 5e-159
+momentum: (-5.45968e-79,0,7.74238e-79)
+
+disappear other
+
+time of event: 3.80679e+83
+reflecting slow
+slow m=100 R=10 p=(998.706,0,1721.25) v=(-2.51861e-81,0,-4.31933e-81) bounces=2
+energy: 1.25e-159
+momentum: (-2.51861e-79,0,-4.31933e-79)
+
+disappear slow

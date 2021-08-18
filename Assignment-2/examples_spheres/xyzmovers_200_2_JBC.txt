@@ -1,0 +1,60 @@
+Here are the initial conditions.
+universe radius 200.0
+max collisions 2
+zmover m=20 R=1 p=(0,0,10) v=(0,0,1.5) bounces=0
+ymover m=20 R=2 p=(0,10,0) v=(0,2,0) bounces=0
+xmover m=20 R=3 p=(10,0,0) v=(0.5,0,0) bounces=0
+energy: 65
+momentum: (10,40,30)
+
+Here are the events.
+
+time of event: 94
+reflecting ymover
+zmover m=20 R=1 p=(0,0,151) v=(0,0,1.5) bounces=0
+ymover m=20 R=2 p=(0,198,0) v=(0,-2,0) bounces=1
+xmover m=20 R=3 p=(57,0,0) v=(0.5,0,0) bounces=0
+energy: 65
+momentum: (10,-40,30)
+
+time of event: 126
+reflecting zmover
+zmover m=20 R=1 p=(0,0,199) v=(0,0,-1.5) bounces=1
+ymover m=20 R=2 p=(0,134,0) v=(0,-2,0) bounces=1
+xmover m=20 R=3 p=(73,0,0) v=(0.5,0,0) bounces=0
+energy: 65
+momentum: (10,-40,-30)
+
+time of event: 292
+reflecting ymover
+zmover m=20 R=1 p=(0,0,-50) v=(0,0,-1.5) bounces=1
+ymover m=20 R=2 p=(0,-198,0) v=(0,2,0) bounces=2
+xmover m=20 R=3 p=(156,0,0) v=(0.5,0,0) bounces=0
+energy: 65
+momentum: (10,40,-30)
+
+disappear ymover
+
+time of event: 374
+reflecting xmover
+zmover m=20 R=1 p=(0,0,-173) v=(0,0,-1.5) bounces=1
+xmover m=20 R=3 p=(197,0,0) v=(-0.5,0,0) bounces=1
+energy: 25
+momentum: (-10,0,-30)
+
+time of event: 391.333
+reflecting zmover
+zmover m=20 R=1 p=(0,0,-199) v=(0,0,1.5) bounces=2
+xmover m=20 R=3 p=(188.333,0,0) v=(-0.5,0,0) bounces=1
+energy: 25
+momentum: (-10,0,30)
+
+disappear zmover
+
+time of event: 1162
+reflecting xmover
+xmover m=20 R=3 p=(-197,0,0) v=(0.5,0,0) bounces=2
+energy: 2.5
+momentum: (10,0,0)
+
+disappear xmover

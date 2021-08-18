@@ -1,0 +1,28 @@
+Here are the initial conditions.
+universe radius 100.0
+max collisions 3
+tennisball m=3.1 R=1.2 p=(4.1,-4.1,4) v=(-1.2,5,1) bounces=0
+energy: 42.532
+momentum: (-3.72,15.5,3.1)
+
+Here are the events.
+
+time of event: 19.6098
+reflecting tennisball
+tennisball m=3.1 R=1.2 p=(-19.4318,93.949,23.6098) v=(0.857048,-4.94545,-1.49934) bounces=1
+energy: 42.532
+momentum: (2.65685,-15.3309,-4.64794)
+
+time of event: 57.2682
+reflecting tennisball
+tennisball m=3.1 R=1.2 p=(12.8433,-92.2886,-32.8527) v=(-0.502542,4.82423,1.97846) bounces=2
+energy: 42.532
+momentum: (-1.55788,14.9551,6.13322)
+
+time of event: 94.9266
+reflecting tennisball
+tennisball m=3.1 R=1.2 p=(-6.08163,89.384,41.6528) v=(0.14126,-4.63797,-2.43091) bounces=3
+energy: 42.532
+momentum: (0.437907,-14.3777,-7.53581)
+
+disappear tennisball

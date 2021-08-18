@@ -1,0 +1,37 @@
+Here are the initial conditions.
+universe radius 120.0
+max collisions 2
+one m=20 R=1 p=(0,0,0) v=(0,0,1) bounces=0
+two m=2 R=5 p=(0,1,100) v=(0,0,0) bounces=0
+three m=3 R=1 p=(2,-1,-2) v=(0,0,0) bounces=0
+energy: 10
+momentum: (0,0,20)
+
+Here are the events.
+
+time of event: 94.0839
+colliding one two
+one m=20 R=1 p=(0,0,94.0839) v=(0,-0.0298792,0.823232) bounces=1
+two m=2 R=5 p=(0,1,100) v=(0,0.298792,1.76768) bounces=1
+three m=3 R=1 p=(2,-1,-2) v=(0,0,0) bounces=0
+energy: 10
+momentum: (0,0,20)
+
+time of event: 102.539
+reflecting two
+one m=20 R=1 p=(0,-0.252632,101.044) v=(0,-0.0298792,0.823232) bounces=1
+two m=2 R=5 p=(0,3.52632,114.946) v=(0,0.189874,-1.78267) bounces=2
+three m=3 R=1 p=(2,-1,-2) v=(0,0,0) bounces=0
+energy: 10
+momentum: (0,-0.217836,12.8993)
+
+disappear two
+
+time of event: 124.346
+reflecting one
+one m=20 R=1 p=(0,-0.904204,118.997) v=(0,-0.0173657,-0.823591) bounces=2
+three m=3 R=1 p=(2,-1,-2) v=(0,0,0) bounces=0
+energy: 6.78604
+momentum: (0,-0.347314,-16.4718)
+
+disappear one

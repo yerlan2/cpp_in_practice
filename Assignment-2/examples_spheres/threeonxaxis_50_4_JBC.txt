@@ -1,0 +1,81 @@
+Here are the initial conditions.
+universe radius 50.0
+max collisions 4
+one m=10 R=1 p=(0,0,0) v=(1,0,0) bounces=0
+three m=30 R=2 p=(10,0,0) v=(0.2,0,0) bounces=0
+two m=1 R=1 p=(20,0,0) v=(0,0,0) bounces=0
+energy: 5.6
+momentum: (16,0,0)
+
+Here are the events.
+
+time of event: 8.75
+colliding one three
+one m=10 R=1 p=(8.75,0,0) v=(-0.2,0,0) bounces=1
+three m=30 R=2 p=(11.75,0,0) v=(0.6,0,0) bounces=1
+two m=1 R=1 p=(20,0,0) v=(0,0,0) bounces=0
+energy: 5.6
+momentum: (16,0,0)
+
+time of event: 17.5
+colliding three two
+one m=10 R=1 p=(7,0,0) v=(-0.2,0,0) bounces=1
+three m=30 R=2 p=(17,0,0) v=(0.56129,0,0) bounces=2
+two m=1 R=1 p=(20,0,0) v=(1.16129,0,0) bounces=1
+energy: 5.6
+momentum: (16,0,0)
+
+time of event: 42.4722
+reflecting two
+one m=10 R=1 p=(2.00556,0,0) v=(-0.2,0,0) bounces=1
+three m=30 R=2 p=(31.0167,0,0) v=(0.56129,0,0) bounces=2
+two m=1 R=1 p=(49,0,0) v=(-1.16129,0,0) bounces=2
+energy: 5.6
+momentum: (13.6774,0,0)
+
+time of event: 51.1704
+colliding three two
+one m=10 R=1 p=(0.265918,0,0) v=(-0.2,0,0) bounces=1
+three m=30 R=2 p=(35.8989,0,0) v=(0.450156,0,0) bounces=3
+two m=1 R=1 p=(38.8989,0,0) v=(2.17274,0,0) bounces=3
+energy: 5.6
+momentum: (13.6774,0,0)
+
+time of event: 55.8194
+reflecting two
+one m=10 R=1 p=(-0.663889,0,0) v=(-0.2,0,0) bounces=1
+three m=30 R=2 p=(37.9917,0,0) v=(0.450156,0,0) bounces=3
+two m=1 R=1 p=(49,0,0) v=(-2.17274,0,0) bounces=4
+energy: 5.6
+momentum: (9.33195,0,0)
+
+disappear two
+
+time of event: 78.0525
+reflecting three
+one m=10 R=1 p=(-5.11049,0,0) v=(-0.2,0,0) bounces=1
+three m=30 R=2 p=(48,0,0) v=(-0.450156,0,0) bounces=4
+energy: 3.23961
+momentum: (-15.5047,0,0)
+
+disappear three
+
+time of event: 297.5
+reflecting one
+one m=10 R=1 p=(-49,0,0) v=(0.2,0,0) bounces=2
+energy: 0.2
+momentum: (2,0,0)
+
+time of event: 787.5
+reflecting one
+one m=10 R=1 p=(49,0,0) v=(-0.2,0,0) bounces=3
+energy: 0.2
+momentum: (-2,0,0)
+
+time of event: 1277.5
+reflecting one
+one m=10 R=1 p=(-49,0,0) v=(0.2,0,0) bounces=4
+energy: 0.2
+momentum: (2,0,0)
+
+disappear one

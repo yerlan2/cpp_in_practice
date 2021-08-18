@@ -1,0 +1,103 @@
+Here are the initial conditions.
+universe radius 2000.0
+max collisions 2
+pool m=1 R=5 p=(10,1000,4) v=(0,-10,0) bounces=0
+one m=2 R=6 p=(10,500,4) v=(0,0,0) bounces=0
+two m=3 R=7 p=(10,400,4) v=(0,0,0) bounces=0
+thr m=4 R=8 p=(10,300,4) v=(0,0,0) bounces=0
+fou m=5 R=9 p=(10,200,5) v=(0,0,0) bounces=0
+fiv m=6 R=1 p=(10,100,6) v=(0,0,0) bounces=0
+six m=7 R=2 p=(10,0,7) v=(0,0,0) bounces=0
+sev m=8 R=3 p=(10,-100,8) v=(0,0,0) bounces=0
+energy: 50
+momentum: (0,-10,0)
+
+Here are the events.
+
+time of event: 48.9
+colliding pool one
+pool m=1 R=5 p=(10,511,4) v=(0,3.33333,0) bounces=1
+one m=2 R=6 p=(10,500,4) v=(0,-6.66667,0) bounces=1
+two m=3 R=7 p=(10,400,4) v=(0,0,0) bounces=0
+thr m=4 R=8 p=(10,300,4) v=(0,0,0) bounces=0
+fou m=5 R=9 p=(10,200,5) v=(0,0,0) bounces=0
+fiv m=6 R=1 p=(10,100,6) v=(0,0,0) bounces=0
+six m=7 R=2 p=(10,0,7) v=(0,0,0) bounces=0
+sev m=8 R=3 p=(10,-100,8) v=(0,0,0) bounces=0
+energy: 50
+momentum: (0,-10,0)
+
+time of event: 61.95
+colliding one two
+pool m=1 R=5 p=(10,554.5,4) v=(0,3.33333,0) bounces=1
+one m=2 R=6 p=(10,413,4) v=(0,1.33333,0) bounces=2
+two m=3 R=7 p=(10,400,4) v=(0,-5.33333,0) bounces=1
+thr m=4 R=8 p=(10,300,4) v=(0,0,0) bounces=0
+fou m=5 R=9 p=(10,200,5) v=(0,0,0) bounces=0
+fiv m=6 R=1 p=(10,100,6) v=(0,0,0) bounces=0
+six m=7 R=2 p=(10,0,7) v=(0,0,0) bounces=0
+sev m=8 R=3 p=(10,-100,8) v=(0,0,0) bounces=0
+energy: 50
+momentum: (0,-10,0)
+
+disappear one
+
+time of event: 77.8875
+colliding two thr
+pool m=1 R=5 p=(10,607.625,4) v=(0,3.33333,0) bounces=1
+two m=3 R=7 p=(10,315,4) v=(0,0.761905,0) bounces=2
+thr m=4 R=8 p=(10,300,4) v=(0,-4.57143,0) bounces=1
+fou m=5 R=9 p=(10,200,5) v=(0,0,0) bounces=0
+fiv m=6 R=1 p=(10,100,6) v=(0,0,0) bounces=0
+six m=7 R=2 p=(10,0,7) v=(0,0,0) bounces=0
+sev m=8 R=3 p=(10,-100,8) v=(0,0,0) bounces=0
+energy: 48.2222
+momentum: (0,-12.6667,0)
+
+disappear two
+
+time of event: 96.0502
+colliding thr fou
+pool m=1 R=5 p=(10,668.167,4) v=(0,3.33333,0) bounces=1
+thr m=4 R=8 p=(10,216.971,4) v=(0,0.490361,-0.298269) bounces=2
+fou m=5 R=9 p=(10,200,5) v=(0,-4.04943,0.238615) bounces=1
+fiv m=6 R=1 p=(10,100,6) v=(0,0,0) bounces=0
+six m=7 R=2 p=(10,0,7) v=(0,0,0) bounces=0
+sev m=8 R=3 p=(10,-100,8) v=(0,0,0) bounces=0
+energy: 47.3515
+momentum: (0,-14.9524,0)
+
+disappear thr
+
+time of event: 118.523
+colliding fou fiv
+pool m=1 R=5 p=(10,743.076,4) v=(0,3.33333,0) bounces=1
+fou m=5 R=9 p=(10,108.998,10.3623) v=(0,-0.574706,1.92313) bounces=2
+fiv m=6 R=1 p=(10,100,6) v=(0,-2.8956,-1.40377) bounces=1
+six m=7 R=2 p=(10,0,7) v=(0,0,0) bounces=0
+sev m=8 R=3 p=(10,-100,8) v=(0,0,0) bounces=0
+energy: 46.6926
+momentum: (0,-16.9138,1.19308)
+
+disappear fou
+
+time of event: 494.091
+reflecting pool
+pool m=1 R=5 p=(10,1994.97,4) v=(-0.0334164,-3.33314,-0.0133666) bounces=2
+fiv m=6 R=1 p=(10,-987.497,-521.21) v=(0,-2.8956,-1.40377) bounces=1
+six m=7 R=2 p=(10,0,7) v=(0,0,0) bounces=0
+sev m=8 R=3 p=(10,-100,8) v=(0,0,0) bounces=0
+energy: 36.6208
+momentum: (-0.0334164,-20.7068,-8.43596)
+
+disappear pool
+
+time of event: 768.385
+reflecting fiv
+fiv m=6 R=1 p=(10,-1781.74,-906.254) v=(-0.0321891,2.83967,1.51339) bounces=2
+six m=7 R=2 p=(10,0,7) v=(0,0,0) bounces=0
+sev m=8 R=3 p=(10,-100,8) v=(0,0,0) bounces=0
+energy: 31.0652
+momentum: (-0.193135,17.038,9.08031)
+
+disappear fiv

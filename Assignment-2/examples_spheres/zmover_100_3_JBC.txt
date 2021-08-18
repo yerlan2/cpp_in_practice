@@ -1,0 +1,28 @@
+Here are the initial conditions.
+universe radius 100.0
+max collisions 3
+zmover m=20 R=10 p=(0,0,0) v=(0,0,1) bounces=0
+energy: 10
+momentum: (0,0,20)
+
+Here are the events.
+
+time of event: 90
+reflecting zmover
+zmover m=20 R=10 p=(0,0,90) v=(0,0,-1) bounces=1
+energy: 10
+momentum: (0,0,-20)
+
+time of event: 270
+reflecting zmover
+zmover m=20 R=10 p=(0,0,-90) v=(0,0,1) bounces=2
+energy: 10
+momentum: (0,0,20)
+
+time of event: 450
+reflecting zmover
+zmover m=20 R=10 p=(0,0,90) v=(0,0,-1) bounces=3
+energy: 10
+momentum: (0,0,-20)
+
+disappear zmover
